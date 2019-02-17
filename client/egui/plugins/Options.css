@@ -1,0 +1,63 @@
+.egui-Options {
+	position:relative;
+	background:rgba(255,255,255,0.5);
+	border:2px solid black;
+	user-select:none;
+}
+.egui-Options-title {
+	position:relative;
+	font-weight:bold;
+	font-size:190%;
+	margin:8%;
+	text-align:center;
+	cursor:default;
+	/*background:grey;*/
+}
+.egui-Options-inner {
+	position:relative;
+	width:100%;
+	/*background:blue;*/
+}
+.egui-Options-bottom {
+	position:absolute;
+	left:0%;
+	width:100%;
+	bottom:2%;
+	/*background:green;*/
+}
+.egui-Options-inner,
+.egui-Options-bottom {
+	text-align:center;
+	/*margin:5% 0% 0% 0%;*/
+}
+.egui-Options button,
+.egui-Options input,
+.egui-Options label {
+	font-size:95%;
+	font-weight:bold;
+}
+.egui-Options button {
+	position:relative;
+	width:35%;
+	border:1px solid black;
+	border-radius:5px;
+	padding:4px;
+	cursor:pointer;
+	background:#bb2f2f;
+}
+.egui-Options button:hover {
+	top:1px;
+}
+.egui-Options-closeButton {
+
+}
+
+/* SPECIFIC */
+
+.egui-Options {
+	position:absolute;
+	left:50%;
+	top:15%;
+	width:25%;
+	height:48%;
+}

@@ -1,0 +1,43 @@
+
+.minimapButtons {
+	position:absolute;
+	left:21%;
+	top:34.1%;
+	width:4.3%;
+	height:28.9%;
+	border:1px solid #bdb5b5;
+	background:#2e4434;
+	padding-top:0.6%;
+}
+
+.minimapButtons button {
+	position:relative;
+	left:9%;
+	width:80%;
+	height:19%;
+	background:#e3f9ff url(../images/options.png) no-repeat;
+	background-size: 80%;
+	background-position: 49%;
+	border-radius:100px;
+	border:0px solid black;
+}
+
+.spellsBox {
+	position:absolute;
+	bottom:1%;
+	left:25.8%;
+	height:6%;
+	width:73.6%;
+	background:;
+	border:2px groove #2e4434;
+	border-radius:3px;
+}
+
+.spellsBox .slot {
+	position:relative;
+	display:inline;
+	height:35%;
+	height:inherit;
+	width:10%;
+	background:brown;
+}

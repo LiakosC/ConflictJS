@@ -1,0 +1,104 @@
+.UnitWindow {
+	/*
+	position: relative;
+	left: 0.4%;
+	top: 0.8%;
+	margin-bottom: 0.8%;
+	*/
+	width: 24.5%;
+	height: 15%;
+	background: gainsboro;
+	border-radius:5px;
+	border:2px outset black;
+}
+
+
+.UnitWindow .UnitWindow-icon {
+	position:absolute;
+	left:2.5%;
+	top:5%;
+	width:33%;
+	height:85%;
+	border:2px groove silver;
+	background:white;
+}
+
+.UnitWindow .UnitWindow-name {
+	position:absolute;
+	background:;
+	left:39%;
+	top:4%;
+	width:59%;
+	text-align:center;
+	font-size: 85%;
+	font-weight: ;
+}
+
+.UnitWindow .UnitWindow-health, .UnitWindow .UnitWindow-energy {
+	position:absolute;
+	left:39%;
+	width:58%;
+	height:20%;
+	background:black;
+	border-width:1px;
+	border-style:solid;
+	border-radius:3px;
+}
+.UnitWindow .UnitWindow-health {
+	border-color:green;
+	top:25%;	
+}
+.UnitWindow .UnitWindow-energy {
+	border-color:orange;
+	top:53%;
+}
+.UnitWindow .UnitWindow-health > div,
+.UnitWindow .UnitWindow-energy > div {
+	position:absolute;
+	left:0%; top:0%; height:100%; border-radius:inherit;
+	width:20%;
+}
+.UnitWindow .UnitWindow-health > div {
+	background:lightgreen;
+}
+.UnitWindow .UnitWindow-energy > div {
+	background:gold;
+}
+.UnitWindow .UnitWindow-health span,
+.UnitWindow .UnitWindow-energy span {
+	position:absolute;
+	left:0%; top:0%; width:100%; height:100%;
+	text-align:center;
+	font-size:80%;
+	font-weight:bold;
+	text-shadow:1px 1px 0px black;
+	color:white;
+}
+.UnitWindow .UnitWindow-level {
+	position:absolute;
+	left:30%;
+	bottom:3%;
+	width:5%;
+	border:2px solid gold;
+	border-radius:100px;
+	background:silver;
+	color:white;
+	text-shadow:1px 1px 0px black;
+	font-size:80%;
+	font-weight:bold;
+	text-align:center;
+	padding:0.8% 1.5% 0.8% 1%;
+}
+
+/* SPECIFIC */
+
+.UnitWindow {
+	position:absolute;
+	left:0.5%;
+}
+#UnitWindow0 {
+	top:1%;
+}
+#UnitWindow1 {
+	top:17.5%;
+}
