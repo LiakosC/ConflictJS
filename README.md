@@ -1,2 +1,3 @@
 # ConflictJS
-Javascript MMO Game
+
+Javascript MMO prototype with SocketIO.
